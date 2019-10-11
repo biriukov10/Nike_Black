@@ -1,0 +1,132 @@
+body  {
+  font-family: 'Raleway', sans-serif;
+}
+* {
+  padding: 0;
+  margin: 0;
+  border: none;
+  outline: none;
+  list-style: none;
+  text-decoration: none;
+  box-sizing: border-box;
+}
+.wrapper {
+  position: relative;
+  width: 100%;
+  max-width: 800px;
+  height: 600px;  
+  margin: 0 auto;
+  background-image: url(../image/Group\ 3\ copy.png);
+  background-size: contain;
+}
+.container {
+  width: 100%;
+  height: 626px;
+  margin: 0 auto;
+  background-image: url(../image/bg.png);
+  background-size: cover;
+  padding-top: 109px;
+}
+.nb-product {
+  width: 100%;
+  max-width: 687px;
+  height: auto;
+  margin: 0 auto;
+  background-color: #111a28;
+  border-radius: 10px;
+  box-shadow: 3px 3px 19px -4px rgba(0,0,0,0.75);
+}
+/* header logo */
+.nb-logo {
+  width: 64px;
+  height: 34px;
+  margin: 24px 0 0 21px;
+  cursor: pointer;
+}
+/* start 2 section */
+.nb-wrapper {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  max-width: 600px;
+  margin: 21px auto 0;
+}
+/* left section */
+.nb-cover {
+  margin-top: 65px;
+}
+.np-toggle {
+  width: 100%;
+  max-width: 120px;
+  margin: 73px auto 19px;
+}
+.nb-toggle__item {
+  height: 15px;
+  width: 15px;
+  border-radius: 50%;
+  margin-right: 8px;
+  cursor: pointer;
+  font-size: 0;
+  transition: .2s;
+}
+.nb-toggle__item:hover {
+  border: 2px solid #c2c1c1;;
+}
+.nb-toggle__item_darkblue {
+  background-color: #1f273f;
+}
+.nb-toggle__item_white {
+  background-color: #fdfdfd;
+}
+.nb-toggle__item_red {
+  background-color: #ed3333;
+}
+.nb-toggle__item_lightblue {
+  background-color: #29e3ea;
+}
+
+/* start two section */
+.nb-description {
+  width: 100%;
+  max-width: 230px;
+}
+.nb-description__title {
+  font-size: 1.5rem;
+  color: #e1e1e1;
+  font-weight: 300;
+  letter-spacing: 1px;
+  margin-bottom: 17px;
+}
+.nb-description__text {
+  font-size: 14px;
+  color: #c2c1c1;
+  margin-bottom: 27px;
+}
+.nb-description__image {
+  display: inline-block;
+  margin-bottom: 27px;
+  cursor: pointer;
+}
+/* start form */
+.nb-form__wrapp {
+  font-size: 14px;
+  color: #c2c1c1;
+  background-color: transparent;
+  border: 1px solid #c2c1c1;
+  padding: 9px 8px;
+  cursor: pointer;
+  margin-bottom: 30px;
+}
+
+.nb-form__btn {
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 185px;
+  height: 40px;
+  color: #c2c1c1;;
+  background-color: transparent;
+  border: 1px solid #c2c1c1;
+  cursor: pointer;
+}
